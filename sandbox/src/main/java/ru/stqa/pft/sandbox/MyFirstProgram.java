@@ -4,11 +4,9 @@ public class MyFirstProgram {
 
 
   public static void main(String[] args) {
-    Square s= new Square();
-    Rectangle r= new Rectangle();
-    s.len=5.0;
-    r.a=8;
-    r.b=7;
+    Square s= new Square( 5);
+    Rectangle r= new Rectangle(8,7);
+
     String name;
 
     System.out.println("площадь прямоугольника со сторонами "+r.a+" и "+ r.b+" равна " + area(r));
