@@ -9,8 +9,8 @@ public class MyFirstProgram {
 
     String name;
 
-    System.out.println("площадь прямоугольника со сторонами "+r.a+" и "+ r.b+" равна " + area(r));
-    System.out.println("площадь квадрата со стороной "+s.len+", равна " + area(s));
+    System.out.println("площадь прямоугольника со сторонами "+r.a+" и "+ r.b+" равна " + r.area());
+    System.out.println("площадь квадрата со стороной "+s.len+", равна " + s.area());
     helo("vasja");
   }
 
@@ -18,12 +18,8 @@ public class MyFirstProgram {
     System.out.println("Hello, " + name);
   }
 
-  public static double area(Square s) {
-    return s.len * s.len;
-  }
 
-  public static double area(Rectangle r) {
-    return r.a * r.b;
-  }
+
+
 }
 	
