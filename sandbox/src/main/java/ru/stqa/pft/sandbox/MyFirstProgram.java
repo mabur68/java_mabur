@@ -4,7 +4,7 @@ public class MyFirstProgram {
 
 
   public static void main(String[] args) {
-    Square s= new Square( 5);
+    Square s= new Square( 6);
     Rectangle r= new Rectangle(8,7);
 
     String name;
